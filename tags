@@ -1,0 +1,38 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Animal	app/models/animal.rb	/^class Animal < ApplicationRecord$/;"	c
+AnimalAllowanceValidator	app/validators/animal_allowance_validator.rb	/^class AnimalAllowanceValidator < ActiveModel::Validator$/;"	c
+AnimalMonthlyCostValidator	app/validators/animal_monthly_cost_validator.rb	/^class AnimalMonthlyCostValidator < ActiveModel::Validator$/;"	c
+AnimalType	app/models/animal_type.rb	/^class AnimalType < ApplicationRecord$/;"	c
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:PetCode
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+ApplicationJob	app/jobs/application_job.rb	/^class ApplicationJob < ActiveJob::Base$/;"	c
+ApplicationRecord	app/models/application_record.rb	/^class ApplicationRecord < ActiveRecord::Base$/;"	c
+CreateAnimal	db/migrate/20190727152407_create_animal.rb	/^class CreateAnimal < ActiveRecord::Migration[5.2]$/;"	c
+CreateAnimalType	db/migrate/20190727152324_create_animal_type.rb	/^class CreateAnimalType < ActiveRecord::Migration[5.2]$/;"	c
+CreatePerson	db/migrate/20190727145420_create_person.rb	/^class CreatePerson < ActiveRecord::Migration[5.2]$/;"	c
+Person	app/models/person.rb	/^class Person < ApplicationRecord$/;"	c
+PetCode	config/application.rb	/^module PetCode$/;"	m
+able_to_have_cat?	app/models/person.rb	/^  def able_to_have_cat?$/;"	f	class:Person
+able_to_have_swallow_bird?	app/models/person.rb	/^  def able_to_have_swallow_bird?$/;"	f	class:Person
+animal_monthly_cost	app/models/person.rb	/^  def animal_monthly_cost$/;"	f	class:Person
+change	db/migrate/20190727145420_create_person.rb	/^  def change$/;"	f	class:CreatePerson
+change	db/migrate/20190727152324_create_animal_type.rb	/^  def change$/;"	f	class:CreateAnimalType
+change	db/migrate/20190727152407_create_animal.rb	/^  def change$/;"	f	class:CreateAnimal
+cost_limit_reached?	app/models/person.rb	/^  def cost_limit_reached?$/;"	f	class:Person
+dogs	app/models/animal.rb	/^  def self.dogs$/;"	F	class:Animal
+mean_of_monthly_cost_for_dogs	app/models/animal.rb	/^  def self.mean_of_monthly_cost_for_dogs$/;"	F	class:Animal
+names_of_who_has_dogs	app/models/person.rb	/^  def self.names_of_who_has_dogs$/;"	F	class:Person
+ordered_reversed_by_animal_monthly_cost	app/models/person.rb	/^  def self.ordered_reversed_by_animal_monthly_cost$/;"	F	class:Person
+system!	bin/setup	/^def system!(*args)$/;"	f
+system!	bin/update	/^def system!(*args)$/;"	f
+three_months_cost	app/models/person.rb	/^  def self.three_months_cost$/;"	F	class:Person
+validate	app/validators/animal_allowance_validator.rb	/^  def validate(record)$/;"	f	class:AnimalAllowanceValidator
+validate	app/validators/animal_monthly_cost_validator.rb	/^  def validate(record)$/;"	f	class:AnimalMonthlyCostValidator
+validate_allowance	app/validators/animal_allowance_validator.rb	/^  def validate_allowance(record)$/;"	f	class:AnimalAllowanceValidator
+validate_monthly_cost	app/validators/animal_monthly_cost_validator.rb	/^  def validate_monthly_cost(record)$/;"	f	class:AnimalMonthlyCostValidator
